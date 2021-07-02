@@ -1,0 +1,51 @@
+#options {
+  background-color: #D1D1D1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.options_block {
+  background: #fff;
+  padding: 15px;
+  border-radius: 3px;
+  width: 150px;
+}
+.options_block input {
+  width: 50px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.popupWrapper {
+  display: flex;
+}
+.popupWrapper input {
+  width: 60px;
+  margin-right: 5px;
+  text-align: center;
+}
+p {
+  margin: 0;
+  margin-bottom: 5px;
+}
+#botStart {
+}
+#botConsole {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 200px;
+  z-index: 9999999;
+  background-color: royalblue;
+}
+#botStart .stopIcon {
+  display: none;
+}
+#botStart.started .stopIcon {
+  display: block;
+}
+#botStart.started .startIcon {
+  display: none;
+}
+ /* #14A0FF */
+ /* #002F5E */
